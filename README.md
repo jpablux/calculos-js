@@ -1,0 +1,2 @@
+# calculos-js
+Statistic functions

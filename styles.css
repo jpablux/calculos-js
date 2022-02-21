@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --white: #FFFFFF;
+    --main_green:#66ED83;
+    --main_blue:#00A3FF;
+    --bgblue:#273741; 
+    --main_font: 'Poppins', 'sans-serif';
+}
+
+body{
+    background-color: var(--bgblue);
+    font-family: var(--main_font);
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+.Calcular_Moda{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulos__principales{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.texto__descriptivo{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--main_green);
+    margin-bottom: 8px;
+}
+
+.input__style{
+    display: block;
+    width: 313px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+.calc{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: var(--main_blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 42px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 36px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--bgblue);
+    opacity: .5;
+}
+
+.calc:hover{
+    transition: 0.3s;
+    background-color: blue;
+}
+
